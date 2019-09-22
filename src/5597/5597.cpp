@@ -27,5 +27,4 @@ int main(void)
             cout << sum - (j + 1) << endl;
             return 0;
         }
-    }
-}
+    
