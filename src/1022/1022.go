@@ -107,6 +107,7 @@ func main() {
 	leftFlag := true
 	matrixSize := rowSize * colSize
 
+	// 여기 darwCount 검사 안해서 1, 1사이즈일때 뻘짓 개많이함
 	drawCount := 0
 	count := 1
 	if isValidIndex(rowIndex, colIndex) {
